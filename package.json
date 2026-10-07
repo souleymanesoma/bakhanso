@@ -1,0 +1,29 @@
+{
+  "name": "bakhanso",
+  "version": "1.0.0",
+  "description": "Gestion agricole - Agricultural Management System",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "echo 'Build script placeholder'",
+    "test": "jest --coverage",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,json}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md,json}\"",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "agriculture",
+    "farming",
+    "gestion",
+    "management"
+  ],
+  "author": "souleymanesoma",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {}
+}
